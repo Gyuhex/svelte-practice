@@ -1,7 +1,7 @@
 <script>
     import Header from "./Header.svelte";
 
-    let loggedUser = $state('Ed');
+    let loggedUser = $state('TEST DEPLOYMENT');
     let users = $state([ {id: 1, userName: 'eduardo'} ])
     let newUser = $state('');
     
