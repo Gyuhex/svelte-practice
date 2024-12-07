@@ -1,7 +1,7 @@
 <script>
     import Header from "./Header.svelte";
 
-    let loggedUser = $state('TEST DEPLOYMENT');
+    let loggedUser = $state('Eduardo');
     let users = $state([ {id: 1, userName: 'eduardo'} ])
     let newUser = $state('');
     
@@ -12,7 +12,6 @@
             users = [...users, { id: newId, userName: newUser }]; // Add the new user to the list
             newUser = ''; // Clear the input field after adding the user
         }
-
     }
 </script>
 
